@@ -37,8 +37,3 @@ function toggleComplete(taskElement) {
 function deleteTask(taskElement) {
     taskElement.remove();
 }
-
-function clearCompleted() {
-    let completedTasks = document.querySelectorAll('.completed');
-    completedTasks.forEach(task => task.remove());
-}
